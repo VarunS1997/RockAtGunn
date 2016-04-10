@@ -1,0 +1,96 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* General */
+.title{
+  display: block;
+  color: rgb(255, 0, 0);
+  font-size: 33px;
+  margin: 15px 0px;
+}
+
+/* wrappers */
+.wrapper{
+  position: relative;
+  text-align: center;
+}
+
+div#body-wrapper{
+  padding: 20px 0px;
+  font-size: 18px;
+}
+
+div#footer-wrapper{
+  padding: 12px 0px;
+  font-size: 18px;
+  color:rgb(30, 30, 30);
+  border-style: solid none none none;
+  border-color: rgb(130, 130, 130);
+  border-width: 1px;
+}
+
+/* Containers */
+div#rock-container{
+  padding: 20px 0px;
+}
+
+div#navigation-container{
+  background-color: rgb(255, 0, 0);
+}
+
+/* Navigation and Heading */
+div#page-header-wrapper div#rock-title{
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  margin: 0px;
+  padding: 0px 0px 5px 0px;
+}
+
+div#page-header-wrapper div#rock-caption{
+  margin: 0px;
+}
+
+div#rock-title img{
+  border-style: solid;
+  margin: 0px 10px 0px 0px;
+  width: 55px;
+  height:100%;
+}
+
+ul#navBar{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul#navBar li{
+  display: inline-block;
+  margin: 0px;
+}
+
+ul#navBar li a{
+  display: block;
+  padding:10px 25px;
+  font-size: 33px;
+  color: rgb(255, 255, 255);
+}
+
+ul#navBar li a:hover{
+  color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+}

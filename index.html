@@ -1,0 +1,83 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rock at Gunn | Home</title>
+  <link rel="stylesheet" type="text/css" href="CSS/generalCSS.css" />
+  <!-- Homepage Specific CSS-->
+  <style type="text/css">
+    div#body-wrapper{
+      padding-top: 0px;
+    }
+
+    div#slideshow-container{
+      display: block;
+      margin: 0px auto 20px auto;
+      background-color: rgb(255, 255, 255);
+      width: 1000px;
+      height: 500px;
+      overflow: hidden;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      border-width: 0px 1px 1px 1px;
+      border-radius: 0px 0px 15px 15px;
+    }
+
+    div#slideshow-container div{
+      border-style:  none solid solid solid;
+      border-color: rgb(0, 0, 0);
+      border-width: 1px;
+    }
+
+    div#active-container{
+      float: left;
+      display: inline-block;
+      height: 100%;
+      width: 80%;
+    }
+    div#waiting-container{
+      float: right;
+      display: inline-block;
+      height: 100%;
+      width: 20%;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper" id="page-header-wrapper">
+    <div class="wrapper" id="rock-container">
+      <div id="rock-title"><img src=""/>Rock At Gunn</div>
+      <div class="title" id="rock-caption">Reach out. Care. Know.</div>
+    </div>
+    <div class="wrapper" id="navigation-container">
+      <ul id="navBar">
+        <li><a href="">Events</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Members</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrapper" id="body-wrapper">
+    <div id="slideshow-container">
+      <div id="active-container"></div>
+      <div id="waiting-container"></div>
+    </div>
+    <div class="title">Reach Out</div>
+    Paragraph about Rock reaching out.
+    <div class="title">Care</div>
+    Paragraph about Rock caring.
+    <div class="title">Know</div>
+    Paragraph about Rock knowing.
+  </div>
+  <div class="wrapper" id="footer-wrapper">
+    <div id="footer">
+      Rock at Gunn 2016<br/>
+      Henry M. Gunn High School
+    </div>
+  </div>
+</body>
+</html>
