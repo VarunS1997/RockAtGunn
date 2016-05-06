@@ -12,11 +12,11 @@ html, body {
 
 a{
     text-decoration: none;
-    color: inherit;
+    color: rgb(255, 0, 0);
 }
 
 a:hover{
-    color: rgb(255, 0, 0);
+    color: rgb(210, 0, 0);
 }
 
 /* General */
@@ -25,6 +25,14 @@ a:hover{
     color: rgb(255, 0, 0);
     font-size: 25px;
     margin: 15px 0px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italics{
+    font-style: italic;
 }
 
 ul.unconventional-list{
@@ -54,7 +62,7 @@ ul.unconventional-list li{
     height: 100%;
     width: 59%;
     font-size: 16px;
-    text-align: left;
+    text-align: justify;
     vertical-align: middle;
 }
 
@@ -63,6 +71,14 @@ ul.unconventional-list li{
     padding: 10px 30px;
     width: 39%;
     display: inline-block;
+}
+
+.image-container:first-child{
+    padding-left: 0px;
+}
+
+.image-container:last-child{
+    padding-right: 0px;
 }
 
 .image-container img{
@@ -158,4 +174,12 @@ ul#footer-list li{
 
 ul#footer-list li:nth-child(3){
     font-size: 14px;
+}
+
+ul#footer-list li a{
+    color: rgb(0, 0, 0);
+}
+
+ul#footer-list li a:hover{
+    color: rgb(255, 0, 0);
 }
